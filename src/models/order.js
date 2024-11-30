@@ -23,7 +23,7 @@ const Order=sequelize.define("orders",{
         }
     },
     product_id:{
-        type:DataTypes.STRING,
+        type:DataTypes.INTEGER,
         
     },
     quantity:{
